@@ -81,3 +81,41 @@ I plan to:
 | 1 | Python fundamentals, conditions, error handling | Basic Calculator | Completed |
 
 I'll continue updating this repository as I learn new concepts and build more projects.
+
+## Day 2: Strings and Loops
+
+### What I Learned
+
+On Day 2, I learned how to work with strings and loops in Python.
+
+I practiced string indexing, negative indexing, slicing, and reversing strings. I also learned how to use `for` loops and `while` loops to solve basic programming problems.
+
+### Problems I Solved
+
+- Extracting characters using string indexing and slicing
+- Reversing strings using slicing
+- Counting characters without using `len()`
+- Counting vowels and consonants in a string
+- Printing numbers using a while loop
+- Calculating the sum of numbers from 1 to N
+
+### Key Takeaways
+
+I learned how indentation affects loop execution, why counters should be initialized outside loops, and how to combine conditions with loops.
+
+I also practiced debugging mistakes and improving my solutions without copying the answers.
+
+### Files
+
+- `day-02/strings_practice.py`
+- `day-02/for_loops.py`
+- `day-02/while_loops.py`
+
+## Progress
+
+| Day | Topic | Project | Status |
+|---|---|---|---|
+| 1 | Python fundamentals, conditions, error handling | Basic Calculator | Completed |
+| 2 | Strings, for loops, while loops | String and loop exercises | Completed |
+
+I'll continue updating this repository as I learn new concepts and build more projects.
