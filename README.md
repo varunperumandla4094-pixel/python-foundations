@@ -111,11 +111,37 @@ I also practiced debugging mistakes and improving my solutions without copying t
 - `day-02/for_loops.py`
 - `day-02/while_loops.py`
 
-## Progress
+## Day 3 - Python Lists and Array Fundamentals
 
-| Day | Topic | Project | Status |
-|---|---|---|---|
-| 1 | Python fundamentals, conditions, error handling | Basic Calculator | Completed |
-| 2 | Strings, for loops, while loops | String and loop exercises | Completed |
+### Topics Learned
+- List creation, indexing, and updating elements
+- List methods: append(), remove(), and pop()
+- Traversing lists using for loops
+- Counting elements and calculating running totals
+- Finding the sum of even numbers
+- Finding maximum and minimum values
+- Counting occurrences of the largest number
 
-I'll continue updating this repository as I learn new concepts and build more projects.
+### Programs Completed
+
+1. **list_basics.py**
+   - List indexing and updating
+   - Adding and removing list elements
+
+2. **list_traversal.py**
+   - Traversing lists
+   - Counting elements
+   - Calculating the sum of even numbers
+
+3. **max_min.py**
+   - Finding maximum and minimum using one loop
+
+4. **largest_occurrences.py**
+   - Finding the largest number
+   - Counting its occurrences
+
+### Key Takeaways
+- Learned to solve array problems using one-pass traversal.
+- Practiced using counters, conditions, and running totals.
+- Understood how to handle negative numbers and duplicates.
+- Practiced O(n) time and O(1) extra-space algorithms.
