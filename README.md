@@ -145,3 +145,37 @@ I also practiced debugging mistakes and improving my solutions without copying t
 - Practiced using counters, conditions, and running totals.
 - Understood how to handle negative numbers and duplicates.
 - Practiced O(n) time and O(1) extra-space algorithms.
+
+
+## Day 4 - Python Functions
+
+### Topics Learned
+- Defining and calling functions
+- Parameters and arguments
+- Return values versus print()
+- Functions with if/elif/else conditions
+- Functions with for loops and lists
+- Early return and function execution order
+
+### Programs Completed
+
+1. **functions_basics.py**
+   - Defining and calling functions
+   - Rectangle area calculation
+   - Returning calculated values
+   - Checking even and odd numbers
+
+2. **functions_with_lists.py**
+   - Calculating the sum of even numbers
+   - Finding the largest number in a list
+   - Returning results from loop-based functions
+
+### Key Takeaways
+- Functions allow code to be reused.
+- Parameters receive arguments from function calls.
+- return sends a result back to the caller.
+- return ends the current function execution.
+- Functions can process lists using loops.
+- Practiced O(n) array algorithms.
+
+**Status:** Completed
