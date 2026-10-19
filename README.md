@@ -179,3 +179,196 @@ I also practiced debugging mistakes and improving my solutions without copying t
 - Practiced O(n) array algorithms.
 
 **Status:** Completed
+
+# Day 05 — Python Dictionaries
+
+## Topics Covered
+
+- Creating dictionaries using key-value pairs
+- Accessing dictionary values using keys
+- Adding and updating dictionary entries
+- Handling missing keys using `get()`
+- Checking key existence using `in`
+- Iterating through dictionaries using `for` loops
+- Using `.values()` and `.items()`
+- Counting frequencies using dictionaries
+
+## Mini Project: AI Request Monitoring System
+
+Built a Python application that simulates monitoring AI service requests using dictionaries.
+
+### Features
+
+- Store AI job details in a dictionary
+- Update job status and priority
+- Count successful, failed, and pending requests
+- Handle missing owner information
+- Display event counts using `.items()`
+- Calculate total events using `.values()`
+
+## Technologies Used
+
+- Python 3
+- Dictionaries
+- For Loops
+- Conditional Statements
+
+## Project File
+
+`ai_request_monitor.py`
+
+## How to Run
+
+From the repository root:
+
+```bash
+python day-05/ai_request_monitor.py
+```
+
+## Expected Output
+
+```text
+Job: 501
+Model: GPT-6
+Status: Completed
+Priority: High
+Owner: Not assigned
+success 3
+failed 2
+pending 1
+Total events: 6
+```
+
+## Key Learnings
+
+- Dictionaries store data as key-value pairs.
+- `get()` safely retrieves missing keys with default values.
+- `in` checks whether a key exists.
+- `.items()` allows iteration through keys and values.
+- `.values()` provides dictionary values for calculations.
+- Dictionaries can efficiently count repeated events.
+
+
+# Day 6 - Python Sets, Tuples, and LeetCode
+
+## Overview
+
+On Day 6 of my Python learning journey, I explored sets, tuples, and their practical applications in software engineering.
+
+I also solved two LeetCode-style problems and built an AI Request Deduplication System.
+
+## Concepts Learned
+
+### 1. Python Sets
+- Creating sets and removing duplicates
+- Adding and removing elements
+- Membership checking with `in`
+- Union, intersection, and difference
+- Using sets for efficient duplicate detection
+
+### 2. Python Tuples
+- Creating tuples
+- Positive and negative indexing
+- Understanding tuple immutability
+- Reassigning tuple variables
+- Using tuples to group configuration values
+
+## LeetCode Problems
+
+### Problem 217 - Contains Duplicate
+
+**Objective:** Determine whether a list contains duplicate numbers.
+
+**Approach:**
+- Convert the list into a set.
+- Compare the lengths of the list and set.
+- Return True if the lengths differ, otherwise False.
+
+**File:** `contains_duplicate.py`
+
+**Time Complexity:** O(n) average case
+
+**Space Complexity:** O(n)
+
+### Problem 349 - Intersection of Two Arrays
+
+**Objective:** Find unique numbers common to two arrays.
+
+**Approach:**
+- Convert both lists into sets.
+- Use set intersection to find common elements.
+- Convert the result back into a list.
+
+**File:** `intersection_two_arrays.py`
+
+**Time Complexity:** O(n + m) average case
+
+**Space Complexity:** O(n + m)
+
+## Mini-Project: AI Request Deduplication System
+
+### Business Problem
+
+AI applications may receive repeated request IDs due to retries or duplicate submissions.
+
+Processing an already completed request again can waste computing resources and increase AI API costs.
+
+### Solution
+
+I developed a Python program that:
+
+1. Accepts incoming request IDs.
+2. Identifies unique request IDs using sets.
+3. Finds previously processed requests using intersection.
+4. Identifies new requests using set difference.
+5. Stores AI model configuration in a tuple.
+6. Generates a monitoring report using a reusable function.
+
+### Technologies and Concepts
+
+- Python
+- Lists
+- Sets
+- Tuples
+- Functions
+- Set intersection and difference
+
+### Sample Output
+
+    AI Request Monitoring Report
+    Total requests received: 7
+    Unique request IDs: 5
+    Previously processed requests: 2
+    New requests to process: 3
+    AI Model: GPT-6
+    Max Tokens: 1000
+    Environment: Production
+
+### File
+
+`ai_request_deduplication.py`
+
+### Note
+
+This is a learning project that identifies requests requiring processing. It does not yet connect to a real AI API or persist processing history.
+
+## How to Run
+
+From the repository root:
+
+    python day-06/contains_duplicate.py
+    python day-06/intersection_two_arrays.py
+    python day-06/ai_request_deduplication.py
+
+## Key Takeaways
+
+- Sets are useful for handling unique values.
+- Set intersection identifies shared elements.
+- Set difference identifies missing or new elements.
+- Tuples help group values that should not be reassigned individually.
+- Functions improve code reusability.
+- Python data structures can solve practical backend problems.
+
+## Learning Goal
+
+Build strong Python fundamentals, improve problem-solving skills through LeetCode, and prepare for AI Engineer and Forward Deployed Engineer roles.
